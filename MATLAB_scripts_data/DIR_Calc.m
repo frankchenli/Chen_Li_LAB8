@@ -1,9 +1,14 @@
 close all;
 clear all;
 
-T11 = 1300; % white matter
-T12 = 3100; % CSF
-T13 = 1576; % Grey matter
+% T11 = 1300; % white matter
+% T12 = 3100; % CSF
+% T13 = 1576; % Grey matter
+T11 = 700; % white matter
+T12 = 3700; % CSF
+T13 = 1350; % Grey matter
+
+
 TR = 6000; 
 Tro = 2000;
 
