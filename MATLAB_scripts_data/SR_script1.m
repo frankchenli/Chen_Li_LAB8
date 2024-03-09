@@ -1,6 +1,5 @@
 % SR_script1.m
 % 20230218 Div Bolar MD, PHD UCSD
-clear all;
 addpath ./NIfTI_20140122/
 
 % Saturation Recovery %

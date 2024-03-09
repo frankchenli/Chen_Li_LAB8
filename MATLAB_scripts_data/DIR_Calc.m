@@ -1,18 +1,18 @@
 close all;
 clear all;
 
-% T11 = 1300; % white matter
-% T12 = 3100; % CSF
-% T13 = 1576; % Grey matter
-T11 = 700; % white matter
-T12 = 3700; % CSF
-T13 = 1350; % Grey matter
+T11 = 930; % white matter
+T12 = 3100; % CSF
+T13 = 1576; % Grey matter
+% T11 = 700; % white matter
+% T12 = 3700; % CSF
+% T13 = 1350; % Grey matter
 
 
 TR = 6000; 
 Tro = 2000;
 
-T1_1 = T12;
+T1_1 = T11;
 T1_2 = T13;
 
 % Null WM and GM
@@ -36,7 +36,10 @@ second_Ti_2 = -T1_2*log(E2);
 plot(Ti, firts_Ti_2);
 hold on
 plot(Ti, second_Ti_2);
-
+xlabel('TI1')
+ylabel('TI2')
+title('Null-out CSF and Grey matter','FontSize', 20);
+% ylim([-1000,1000]);
 
 
 

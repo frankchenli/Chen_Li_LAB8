@@ -35,6 +35,8 @@ for i = 1:size(intensity,1)
     % ylabel('SI (AU)', 'FontSize', 14)
 
 
+    curve = [-81 -63 -32 -23 7 31 51 80 90 98 105 117 123 131 134 134 135 133];;
+
 
 
 
